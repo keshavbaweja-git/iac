@@ -7,7 +7,7 @@ resource "aws_default_route_table" "rtb" {
   }
 
   tags = {
-    Name = "supernova_default_rtb"
+    Name = "supernova_rtb_default"
   }
 }
 
